@@ -1,17 +1,12 @@
 import streamlit as st
 import pandas as pd
-import plost
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
-from streamlit_option_menu import option_menu
-from streamlit_option_menu import option_menu
 import numpy as np
-import seaborn as sns
 from sklearn.linear_model import LinearRegression as LR
 from sklearn.metrics import r2_score
-from sklearn.preprocessing import PolynomialFeatures
 
 
 
