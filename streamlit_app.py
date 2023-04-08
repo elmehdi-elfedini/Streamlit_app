@@ -10,7 +10,7 @@ from sklearn.metrics import r2_score
 
 
 
-data = pd.read_csv('../../data/kc_house_data3.csv',delimiter=";")
+data = pd.read_csv('kc_house_data3.csv',delimiter=";")
 X = np.array(data.drop(["prix(dh)"], 1))
 Y = np.array(data["prix(dh)"])
 
